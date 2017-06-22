@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E01939C1EFC673A007E36A5 /* MyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01939B1EFC673A007E36A5 /* MyWindow.swift */; };
+		0E01939E1EFC69EC007E36A5 /* MyTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01939D1EFC69EC007E36A5 /* MyTaskDelegate.swift */; };
+		0E0FFB371EF99AB70011E2C4 /* MyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FFB361EF99AB70011E2C4 /* MyItem.swift */; };
+		0E0FFB391EF99C8A0011E2C4 /* MyItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FFB381EF99C890011E2C4 /* MyItemView.swift */; };
+		0E0FFB431EFA18E50011E2C4 /* TimelineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FFB421EFA18E50011E2C4 /* TimelineLayout.swift */; };
+		0E0FFB471EFB05BE0011E2C4 /* CurrentTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FFB461EFB05BD0011E2C4 /* CurrentTimeView.swift */; };
 		0EE00E241EF80A8D000BBAE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E231EF80A8D000BBAE2 /* AppDelegate.swift */; };
 		0EE00E261EF80A8D000BBAE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E251EF80A8D000BBAE2 /* ViewController.swift */; };
 		0EE00E291EF80A8D000BBAE2 /* Timelines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E271EF80A8D000BBAE2 /* Timelines.xcdatamodeld */; };
@@ -14,6 +20,7 @@
 		0EE00E2E1EF80A8D000BBAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE00E2C1EF80A8D000BBAE2 /* Main.storyboard */; };
 		0EE00E391EF80A8E000BBAE2 /* TimelinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E381EF80A8E000BBAE2 /* TimelinesTests.swift */; };
 		0EE00E441EF80A8E000BBAE2 /* TimelinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E431EF80A8E000BBAE2 /* TimelinesUITests.swift */; };
+		0EE00E521EF80B3B000BBAE2 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE00E511EF80B3B000BBAE2 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E01939B1EFC673A007E36A5 /* MyWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWindow.swift; sourceTree = "<group>"; };
+		0E01939D1EFC69EC007E36A5 /* MyTaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTaskDelegate.swift; sourceTree = "<group>"; };
+		0E0FFB361EF99AB70011E2C4 /* MyItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyItem.swift; sourceTree = "<group>"; };
+		0E0FFB381EF99C890011E2C4 /* MyItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyItemView.swift; sourceTree = "<group>"; };
+		0E0FFB421EFA18E50011E2C4 /* TimelineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineLayout.swift; sourceTree = "<group>"; };
+		0E0FFB461EFB05BD0011E2C4 /* CurrentTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTimeView.swift; sourceTree = "<group>"; };
 		0EE00E201EF80A8D000BBAE2 /* Timelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timelines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE00E231EF80A8D000BBAE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EE00E251EF80A8D000BBAE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		0EE00E3F1EF80A8E000BBAE2 /* TimelinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimelinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE00E431EF80A8E000BBAE2 /* TimelinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelinesUITests.swift; sourceTree = "<group>"; };
 		0EE00E451EF80A8E000BBAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE00E511EF80B3B000BBAE2 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				0EE00E2C1EF80A8D000BBAE2 /* Main.storyboard */,
 				0EE00E2F1EF80A8D000BBAE2 /* Info.plist */,
 				0EE00E271EF80A8D000BBAE2 /* Timelines.xcdatamodeld */,
+				0EE00E511EF80B3B000BBAE2 /* WindowController.swift */,
+				0E0FFB361EF99AB70011E2C4 /* MyItem.swift */,
+				0E0FFB381EF99C890011E2C4 /* MyItemView.swift */,
+				0E0FFB421EFA18E50011E2C4 /* TimelineLayout.swift */,
+				0E0FFB461EFB05BD0011E2C4 /* CurrentTimeView.swift */,
+				0E01939B1EFC673A007E36A5 /* MyWindow.swift */,
+				0E01939D1EFC69EC007E36A5 /* MyTaskDelegate.swift */,
 			);
 			path = Timelines;
 			sourceTree = "<group>";
@@ -259,6 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE00E261EF80A8D000BBAE2 /* ViewController.swift in Sources */,
+				0EE00E521EF80B3B000BBAE2 /* WindowController.swift in Sources */,
+				0E0FFB371EF99AB70011E2C4 /* MyItem.swift in Sources */,
+				0E0FFB391EF99C8A0011E2C4 /* MyItemView.swift in Sources */,
+				0E0FFB431EFA18E50011E2C4 /* TimelineLayout.swift in Sources */,
+				0E01939E1EFC69EC007E36A5 /* MyTaskDelegate.swift in Sources */,
+				0E0FFB471EFB05BE0011E2C4 /* CurrentTimeView.swift in Sources */,
+				0E01939C1EFC673A007E36A5 /* MyWindow.swift in Sources */,
 				0EE00E291EF80A8D000BBAE2 /* Timelines.xcdatamodeld in Sources */,
 				0EE00E241EF80A8D000BBAE2 /* AppDelegate.swift in Sources */,
 			);
@@ -502,6 +530,7 @@
 				0EE00E4A1EF80A8E000BBAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE00E4B1EF80A8E000BBAE2 /* Build configuration list for PBXNativeTarget "TimelinesTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +539,7 @@
 				0EE00E4D1EF80A8E000BBAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EE00E4E1EF80A8E000BBAE2 /* Build configuration list for PBXNativeTarget "TimelinesUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +548,7 @@
 				0EE00E501EF80A8E000BBAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
